@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700;900&family=Mynerve&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/images/Udemig.png" />
+    <title>Udemig | Kayıt Ol</title>
+
+    <style>
+        .login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 450px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(6, 92, 150, 0.7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.9);
+  border-radius: 7px;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #d1cfcf;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 30px;
+  letter-spacing: 3px;
+  
+}
+
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(1) {
+  bottom: 2px;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ffffff);
+  animation: btn-anim1 2s linear infinite;
+}
+    </style>
+
+    <body>
+
+        <div class="d-flex justify-content-center  mt-5">
+            <a href="/index.html"><img style="width: 100px;" src="images/Udemig.png"></a>
+        </div>
+        
+        <div class="login-box">
+ 
+            <form>
+              <div class="user-box">
+                <input type="text" name="" required="">
+                <label>İsim</label>
+              </div>
+              <div class="user-box">
+                <input type="password" name="" required="">
+                <label>E-mail</label>
+                <div class="user-box">
+                    <input type="password" name="" required="">
+                    <label>Şifre</label>
+                    <div class="user-box">
+                        <input type="password" name="" required="">
+                        <label>Şifre Tekrar</label>
+              </div><center>
+              <a href="#">
+                     Kayıt Ol
+                 <span></span>
+              </a></center>
+            </form>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+</body>
+</html>
