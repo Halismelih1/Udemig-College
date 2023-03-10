@@ -21,5 +21,6 @@
 # Ekran Görüntüsü
 
 
-https://user-images.githubusercontent.com/125564176/223433486-767c46bf-937f-45e7-9d35-28bb2756b17d.mp4
+![ss](https://user-images.githubusercontent.com/125564176/224197675-f5013177-8da7-44f6-9441-b87be60e0d2c.gif)
+
 
